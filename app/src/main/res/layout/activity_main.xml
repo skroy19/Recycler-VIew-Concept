@@ -11,7 +11,10 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:id="@+id/recyclerView"
-      tools:listitem="@layout/sample_recyclerview">
+      tools:listitem="@layout/sample_recyclerview"
+      android:scrollbars="vertical"
+      android:scrollbarThumbVertical="@drawable/custom_scrollbar_thum"
+      android:fadeScrollbars="false">
 
   </androidx.recyclerview.widget.RecyclerView>
 
